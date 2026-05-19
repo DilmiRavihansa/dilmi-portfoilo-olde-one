@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-size-adjust"
+        ]
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not chrome <= 109",
+    "not ios_saf <= 15.8",
+    "not and_ff <= 136",
+    "not firefox <= 137",
+    "not ios_saf <= 18.3",
+    "not safari <= 18.3",
+    "not samsung <= 27"
+  ]
+}
